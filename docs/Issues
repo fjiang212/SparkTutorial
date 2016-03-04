@@ -1,0 +1,23 @@
+1) start-all.sh
+bash-3.1$ ./start-all.sh
+starting org.apache.spark.deploy.master.Master, logging to /xxx/logs/xxxx.out
+localhost: @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+localhost: @         WARNING: UNPROTECTED PRIVATE KEY FILE!          @
+localhost: @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+localhost: Permissions 0755 for '/homes/fjiang/.ssh/id_rsa' are too open.
+localhost: It is recommended that your private key files are NOT accessible by others.
+localhost: This private key will be ignored.
+localhost: bad permissions: ignore key: /homes/fjiang/.ssh/id_rsa
+Enter passphrase for key '/homes/fjiang/.ssh/id_rsa':
+
+Solution:
+=========
+
+
+2) incompatible
+Description	Resource	Path	Location	Type
+akka-actor_2.10-2.3.11.jar of SparkTutorial build path is cross-compiled with an incompatible version of Scala (2.10.0). In case this report is mistaken, this check can be disabled in the compiler preference page.	SparkTutorial		Unknown	Scala Version Problem
+
+
+Solution:
+=========
